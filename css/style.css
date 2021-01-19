@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body
+{
+    margin: 0;
+    padding:0;
+    background-size:100%;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+nav a img{
+    margin-left:15%;
+    margin-top:15px;
+}
+nav
+{  
+    
+    background: transparent;
+    width:100%;
+}
+nav ul
+{   
+    float: right;
+    margin-right: 10%;
+    margin-top:20px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a
+{ 
+
+    margin:0 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color:black;
+    font-family: 'Hammersmith One', sans-serif;
+    cursor:pointer;
+}
+nav >ul >li >a:hover{
+    color:white;
+    border-bottom: 5px solid rgb(21, 101, 250);
+}
+.name h1
+{
+    font-size: 50px;
+    font-family: 'Hammersmith One', sans-serif;
+    position: absolute;
+    font-weight: 1000;
+    top: 50%;
+    color:white;
+    right:50%;
+    transform: translate(187px, -50px);
+}
+.title{
+    color:white;    
+    position: absolute;
+    top:45%;
+    right:50%;
+    transform: translate(55px, -50px);
+    font-size: 24px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.dp img
+{   
+    height: 400px;
+    width: 400x;
+    margin-left:10%;   
+    margin-right: 0;
+    margin-top: 10px;
+}
+.intro
+{
+    display: block;
+    height: 100vh;
+    width: 100%;
+}
+.about{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+.container-about
+{
+    margin-left: 50%;
+    position:relative;
+    bottom:65%;
+}
+.container-about ul li p{
+    display: inline;
+}
+.description
+{
+    font-size: 20px;
+    color:gray;
+    
+}
+.about ul li{
+    font-weight: bolder;
+    font-size: 20px;
+    list-style-position: inside;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.about ul li p
+{  
+    text-align: left;
+    font-weight: normal;
+    color:grey;
+    font-size: 20px;
+}
+.about-me
+{   padding-top: 4%;
+    margin-left: 60%;   
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.about-me h1{
+    border-bottom:2px solid black;
+}
+.services
+{
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100%;
+    width: 100%;
+}
+.services h1{
+    padding-top: 2%;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Hammersmith One', sans-serif; 
+}
+.services p
+{
+    font-size: 24px;
+    color:rgba(162, 163, 163, 0.822);
+}
+.service-card
+{   width: 300px;
+    background-color: aliceblue;
+    display:inline-block;
+    box-sizing: border;
+    margin-left:20%;    
+    height: 60vh;
+}
+.service-card p, .service-card-1 p
+{
+    font-size: 20px;
+    color:black;
+}
+.service-card h5, .service-card-1 h5{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: calibri;
+}
+.service-card-1
+{   width: 300px;
+    margin-left:15%;
+    background-color: aliceblue;
+    display:inline-block;
+    box-sizing: border-box;
+    height: 60vh;
+ 
+}
+.about, .services
+{
+    background-color:#fff;
+}
+.container-fluid{
+    height: 300px;
+    text-align: center;
+}
+.container-fluid h1{
+    font-weight: bolder;
+}
+.contact-me
+{
+   height:100vh;
+    background-color:#fff;
+
+}
+.contact-container
+{
+    
+    display:inline-block; 
+    width: 250px; 
+    border:0.1px solid black;
+    background:white;
+    height:40%;
+    margin:0px 25px;
+}
+.contact-me h1{
+    padding-top: 2%;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Hammersmith One', sans-serif; 
+}
+.contact-me p{
+    font-size: 24px;
+    color:rgba(162, 163, 163, 0.822);
+}
+.projects
+{
+    width: 100%;
+    height:80vh;
+}
+.projects h1
+{
+    padding-top: 4%;
+    font-size: 60px;
+    font-family: 'Hammersmith One', sans-serif;;
+}
+.projects p
+{
+    font-size: 24px;
+    color:rgba(162, 163, 163, 0.822);
+}
+.project-container
+{
+    display: inline-block;
+    width: 250px; 
+    border:0.1px solid black;
+    background:#fff;
+    height:150x;
+    margin: 0 6% 30px;  
+}
+.project-container h3{
+      font-size: 40px;
+      padding-top: 20px;
+      font-weight: bolder;
+  
+}
+.project-container h5
+{
+    font-size: 24px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(162, 163, 163, 0.822);
+}
+.btn-primary
+{
+margin-left:35%;
+padding:15px;
+font-size: 14px;
+font-weight: bold;
+line-height: 10px;
+}
+.about ul{
+    margin-left: 12%;
+}
+.contact-container i
+{
+    padding-top: 30px;
+    color:rgba(255, 41, 173, 0.644);
+}
+.contact-container a
+{
+    padding-top:20px;   
+    text-decoration: none;
+    color:rgb(19, 207, 60);
+    font-size: 25px;
+    word-wrap: break-word;  
+    font-weight: bold;
+    font-family:'calibri';
+    margin: 20px 10px;
+}
+.client-info
+{
+    height: 100vh;  
+    width: 100%;
+}
+.client-info h1{
+    padding-top: 2%;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Hammersmith One', sans-serif; 
+}
+form{
+    margin-top:10px;
+    height: 400px;
+    width: 500px;
+}
+form input
+{
+    height: 50px;
+     width:500px;
+     box-sizing: border-box;
+     padding:2%;
+     background:grey;
+     border: 5px solid black;
+     outline:none;
+     margin: 10px 0px;
+     border-radius: 24px    ;
+}
+textarea
+{
+    background: grey;
+    outline:none;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 5px solid black;
+    padding:2%;
+    width: 500px;
+    height: 200px;
+}
+.btn-dark
+{
+    margin-top: 4%;
+    height: 50px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 24px;
+}
+.about-container, .link-container, .service-container, .contact-containers
+{
+    margin:30px;
+}
+.about-container h3, .link-container h3 , .service-container h3, .contact-containers h3
+{
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-container p, .link-container ul li,  .service-container ul li, .contact-containers ul li
+{
+        
+        font-family: inherit;
+        list-style-position: inside;
+        list-style: none;
+        font-family: 'Hammersmith One', sans-serif;
+        color:black;
+}
+.link-container ul li a{
+    text-decoration: none;
+    color:black;
+}
+.Social ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+.Social ul li a i{
+    color: black;
+    margin: 20px;
+}
+footer h4{
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 14px;
+}
